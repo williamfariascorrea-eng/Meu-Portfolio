@@ -1,0 +1,7 @@
+# Security Policy
+Contact: https://wa.me/5553991123550
+Expires: 2027-12-31T23:59:59.000Z
+Encryption: https://keybase.io/williamfariascorrea
+Canonical: https://seu-dominio.vercel.app
+Preferred-Languages: pt-BR, en
+Policy: https://seu-dominio.vercel.app/security-policy
