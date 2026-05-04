@@ -120,7 +120,7 @@ function createFloatingElements() {
   const shapes = ['circle', 'square', 'triangle'];
   const colors = ['#6c63ff', '#f97316', '#8b85ff', '#fb923c', '#5046e5'];
   
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 3; i++) {
     const element = document.createElement('div');
     element.className = 'floating-element';
     
@@ -182,10 +182,10 @@ if (typeof tsParticles !== 'undefined') {
     fullScreen: { enable: false },
     particles: {
       number: { 
-        value: 40,
+        value: 25,
         density: {
           enable: true,
-          value_area: 1000
+          value_area: 1200
         }
       },
       color: { 
