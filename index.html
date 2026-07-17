@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="William Corrêa - Crio landing pages e sites que geram resultados para negócios locais. Design profissional e focado em conversão.">
+  <meta name="description" content="William Corrêa - Analista de Sistemas. Transformo necessidades em soluções de TI com análise de requisitos, modelagem de dados e documentação técnica.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="William Corrêa">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com; style-src 'self' https://fonts.googleapis.com https://unpkg.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';">
@@ -12,7 +12,7 @@
   <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
   <meta name="theme-color" content="#0f172a">
   <link rel="canonical" href="https://buildbywilliam.netlify.app">
-  <title>William Corrêa | Landing Pages</title>
+  <title>William Corrêa | Análise de Sistemas</title>
 
   <!-- Fonts Premium -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,19 +40,19 @@
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
-      <a href="https://wa.me/5553991123550" class="nav-btn">Quero Faturar Mais</a>
+      <a href="https://wa.me/5553991123550" class="nav-btn">Vamos Conversar</a>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <span class="hero-badge">🔥 Especialista em Conversão Digital</span>
+      <span class="hero-badge">🔥 Analista de Sistemas</span>
       <h1>William Corrêa</h1>
-      <p class="hero-subtitle">Crio sites que geram clientes todos os dias para negócios locais — design que vende, não só que enfeita</p>
+      <p class="hero-subtitle">Transformo necessidades de negócio em soluções de TI — requisitos claros, processos otimizados e sistemas que realmente funcionam</p>
       <div class="hero-buttons">
         <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
-        <a href="https://wa.me/5553991123550" class="btn btn-outline">Quero Resultados</a>
+        <a href="https://wa.me/5553991123550" class="btn btn-outline">Vamos Conversar</a>
       </div>
       <div class="hero-stats">
         <div class="stat-item">
@@ -61,7 +61,7 @@
         </div>
         <div class="stat-item">
           <span class="stat-number">9+</span>
-          <span class="stat-label">Projetos Entregues</span>
+          <span class="stat-label">Projetos Analisados</span>
         </div>
         <div class="stat-item">
           <span class="stat-number">100%</span>
@@ -78,24 +78,22 @@
       <div class="glass-card about-card">
         <div class="about-content">
           <span class="section-badge">Sobre Mim</span>
-          <h2>O cara que faz você faturar mais com seu site</h2>
+          <h2>Da ideia ao sistema — quem traduz o que você precisa em tecnologia</h2>
           <p>
-            Desenvolvimento focado em resultado, não só em código bonito. Desde 2024, ajudo negócios locais 
-            a terem presença digital profissional que realmente atrai e converte clientes. 
-            Cada página é pensada pra vender — do design à última linha de código.
+            Analista de Sistemas com experiência em desenvolvimento web. Entendo tanto a linguagem do negócio quanto a técnica, fazendo a ponte entre o que o cliente precisa e o que o time de desenvolvimento entrega. Desde 2024, atuo em todas as fases: levantamento de requisitos, modelagem de dados, documentação de processos, prototipação e validação de entregas.
           </p>
           <div class="about-features">
             <div class="feature">
-              <i class="ph ph-code"></i>
-              <span>Código Limpo</span>
+              <i class="ph ph-clipboard-text"></i>
+              <span>Levantamento de Requisitos</span>
             </div>
             <div class="feature">
-              <i class="ph ph-paint-brush"></i>
-              <span>Design Premium</span>
+              <i class="ph ph-database"></i>
+              <span>Modelagem de Dados</span>
             </div>
             <div class="feature">
-              <i class="ph ph-rocket-launch"></i>
-              <span>Alta Performance</span>
+              <i class="ph ph-chart-line-up"></i>
+              <span>Otimização de Processos</span>
             </div>
           </div>
         </div>
@@ -106,11 +104,16 @@
               <span class="dot yellow"></span>
               <span class="dot green"></span>
             </div>
-            <pre><code><span class="keyword">const</span> <span class="var">developer</span> = {
-  name: <span class="string">"William Corrêa"</span>,
-  skills: [<span class="string">"React"</span>, <span class="string">"TypeScript"</span>, <span class="string">"Node.js"</span>],
-  passion: <span class="string">"criar experiências únicas"</span>
-};</code></pre>
+            <pre><code><span class="keyword">SELECT</span>
+  u.nome,
+  p.descricao AS perfil,
+  COUNT(a.id) AS total_acessos
+<span class="keyword">FROM</span> usuarios u
+<span class="keyword">INNER JOIN</span> perfis p ON u.perfil_id = p.id
+<span class="keyword">LEFT JOIN</span> acessos a ON u.id = a.usuario_id
+<span class="keyword">WHERE</span> u.ativo = 1
+<span class="keyword">GROUP BY</span> u.nome, p.descricao
+<span class="keyword">ORDER BY</span> total_acessos <span class="keyword">DESC</span>;</code></pre>
           </div>
         </div>
       </div>
@@ -122,48 +125,48 @@
     <div class="container">
       <div class="section-header center">
         <span class="section-badge">Habilidades</span>
-        <h2>Tecnologias que domino</h2>
+        <h2>Ferramentas que domino</h2>
       </div>
       <div class="skills-grid">
         <div class="skill-card">
-          <i class="ph ph-html5"></i>
-          <span>HTML5</span>
+          <i class="ph ph-database"></i>
+          <span>SQL</span>
         </div>
         <div class="skill-card">
-          <i class="ph ph-css3"></i>
-          <span>CSS3</span>
-        </div>
-        <div class="skill-card">
-          <i class="ph ph-javascript"></i>
-          <span>JavaScript</span>
-        </div>
-        <div class="skill-card">
-          <i class="ph ph-brackets-curly"></i>
-          <span>TypeScript</span>
-        </div>
-        <div class="skill-card">
-          <i class="ph ph-react-logo"></i>
-          <span>React</span>
-        </div>
-        <div class="skill-card">
-          <i class="ph ph-nodejs-logo"></i>
-          <span>Node.js</span>
-        </div>
-        <div class="skill-card">
-          <i class="ph ph-python-logo"></i>
-          <span>Python</span>
+          <i class="ph ph-sitemap"></i>
+          <span>Modelagem de Dados</span>
         </div>
         <div class="skill-card">
           <i class="ph ph-git-branch"></i>
           <span>Git</span>
         </div>
         <div class="skill-card">
-          <i class="ph ph-cloud-arrow-up"></i>
-          <span>Deploy</span>
+          <i class="ph ph-figma-logo"></i>
+          <span>Figma</span>
+        </div>
+        <div class="skill-card">
+          <i class="ph ph-activity"></i>
+          <span>BPMN / Fluxogramas</span>
+        </div>
+        <div class="skill-card">
+          <i class="ph ph-code"></i>
+          <span>HTML / CSS / JS</span>
+        </div>
+        <div class="skill-card">
+          <i class="ph ph-react-logo"></i>
+          <span>React</span>
+        </div>
+        <div class="skill-card">
+          <i class="ph ph-python-logo"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-card">
+          <i class="ph ph-brackets-curly"></i>
+          <span>APIs REST</span>
         </div>
         <div class="skill-card">
           <i class="ph ph-device-mobile"></i>
-          <span>Responsivo</span>
+          <span>Scrum / Kanban</span>
         </div>
       </div>
     </div>
@@ -174,7 +177,7 @@
     <div class="container">
       <div class="section-header center">
         <span class="section-badge">Projetos</span>
-        <h2>Trabalhos recentes</h2>
+        <h2>Casos de análise</h2>
       </div>
       <div class="projects-grid">
         <div class="project-card">
@@ -187,8 +190,8 @@
           </div>
           <div class="project-content">
             <h3>TeamBanks</h3>
-            <p class="project-tech">HTML • CSS • JavaScript</p>
-            <p>Landing page institucional para plataforma bancária - design profissional focado em credibilidade.</p>
+            <p class="project-tech">Análise de Requisitos • SQL • HTML/CSS</p>
+            <p>Levantamento de requisitos e modelagem de dados para landing page institucional de plataforma bancária.</p>
           </div>
         </div>
 
@@ -202,8 +205,8 @@
           </div>
           <div class="project-content">
             <h3>Finance Dashboard</h3>
-            <p class="project-tech">TypeScript • React</p>
-            <p>Dashboard para gestão financeira com visualização de dados e relatórios automáticos.</p>
+            <p class="project-tech">Modelagem de Dados • TypeScript • React</p>
+            <p>Estruturação de banco de dados e fluxo de informações para dashboard financeiro com relatórios automáticos.</p>
           </div>
         </div>
 
@@ -217,8 +220,8 @@
           </div>
           <div class="project-content">
             <h3>Paulinho Pereira</h3>
-            <p class="project-tech">CSS • Design</p>
-            <p>Landing page personalizada para profissional liberal - design exclusivo que passa credibilidade.</p>
+            <p class="project-tech">Mapeamento de Processos • UX • Design</p>
+            <p>Mapeamento de jornada do cliente e prototipação de landing page personalizada para profissional liberal.</p>
           </div>
         </div>
 
@@ -232,8 +235,8 @@
           </div>
           <div class="project-content">
             <h3>Cabal Requiem</h3>
-            <p class="project-tech">Game Dev • JavaScript</p>
-            <p>Projeto de game com mecânicas de gameplay - demonstra experiência em lógica de programação.</p>
+            <p class="project-tech">Documentação Técnica • JavaScript</p>
+            <p>Documentação de regras de negócio e lógica do sistema para game com mecânicas de gameplay.</p>
           </div>
         </div>
 
@@ -247,8 +250,8 @@
           </div>
           <div class="project-content">
             <h3>Cabal Horizon Wiki</h3>
-            <p class="project-tech">HTML • CSS • Python</p>
-            <p>Enciclopédia online para comunidade de jogadores - centralizou informações e melhorou engajamento.</p>
+            <p class="project-tech">Organização da Informação • SQL • Python</p>
+            <p>Estruturação de conteúdo e modelagem de dados para enciclopédia online de comunidade de jogadores.</p>
           </div>
         </div>
       </div>
@@ -260,7 +263,7 @@
     <div class="container">
       <div class="section-header center">
         <span class="section-badge">Depoimentos</span>
-        <h2>O que dizem meus clientes</h2>
+        <h2>O que dizem clientes e parceiros</h2>
       </div>
       <div class="testimonials-grid">
         <div class="testimonial-card glass-card">
@@ -273,7 +276,7 @@
               <span>Dono de Loja</span>
             </div>
           </div>
-          <p>"Fiquei surpreso com o resultado. O site ficou muito profissional e meus clientes elogiaram bastante. Entregou antes do prazo combinado."</p>
+          <p>"Ele entendeu exatamente o que eu precisava antes mesmo de eu saber explicar direito. O sistema ficou claro e fácil de usar."</p>
           <div class="testimonial-stars">
             <i class="ph ph-star-fill"></i>
             <i class="ph ph-star-fill"></i>
@@ -293,7 +296,7 @@
               <span>Dono de Lanchonete</span>
             </div>
           </div>
-          <p>"Precisava de um site para meu negócio e não tinha nenhuma experiência. Ele explicou tudo com clareza e entregou exatamente o que eu queria."</p>
+          <p>"Explicou cada etapa do processo com clareza. A documentação que ele fez facilitou muito a comunicação com a equipe de desenvolvimento."</p>
           <div class="testimonial-stars">
             <i class="ph ph-star-fill"></i>
             <i class="ph ph-star-fill"></i>
@@ -313,7 +316,7 @@
               <span>Cabal Horizon</span>
             </div>
           </div>
-          <p>"Nosso servidor de Cabal precisava de uma wiki centralizada. Ele criou algo simples de usar e que caiu perfeitamente com a nossa comunidade."</p>
+          <p>"Precisávamos organizar muitas informações dispersas. Ele estruturou tudo, documentou os processos e centralizou de um jeito que qualquer um entende."</p>
           <div class="testimonial-stars">
             <i class="ph ph-star-fill"></i>
             <i class="ph ph-star-fill"></i>
@@ -331,31 +334,31 @@
     <div class="container">
       <div class="section-header center">
         <span class="section-badge">Diferenciais</span>
-        <h2>Por que escolher meu trabalho?</h2>
+        <h2>Por que trabalhar comigo?</h2>
       </div>
       <div class="differentials-grid">
         <div class="differential-card glass-card">
           <div class="differential-icon">
-            <span>F</span>
+            <span>O</span>
           </div>
-          <h3>Feito na prática</h3>
-          <p>Não sou apenas teórico - cada projeto que fiz nasceu de necessidade real</p>
+          <h3>Olhar de negócio</h3>
+          <p>Não entrego só documento — entrego solução. Entendo o problema real por trás do pedido</p>
         </div>
 
         <div class="differential-card glass-card">
           <div class="differential-icon">
-            <span>D</span>
+            <span>C</span>
           </div>
-          <h3>Design que conecta</h3>
-          <p>Crio interfaces que prendem a atenção e passam credibilidade</p>
+          <h3>Comunicação clara</h3>
+          <p>Tradutor entre o mundo do negócio e o da tecnologia — ninguém fica perdido</p>
         </div>
 
         <div class="differential-card glass-card">
           <div class="differential-icon">
             <span>E</span>
           </div>
-          <h3>Entrega rápida</h3>
-          <p>Seu site pronto em poucos dias, não em meses</p>
+          <h3>Entrega com qualidade</h3>
+          <p>Documentação organizada, requisitos rastreáveis e validação contínua com o cliente</p>
         </div>
 
         <div class="differential-card glass-card">
@@ -363,7 +366,7 @@
             <span>P</span>
           </div>
           <h3>Parceria real</h3>
-          <p>Estarei aqui para ajudar mesmo após o projeto entregue</p>
+          <p>Presente do início ao fim do projeto — e disponível para evoluções futuras</p>
         </div>
       </div>
     </div>
@@ -379,13 +382,13 @@
       <div class="results-grid">
         <div class="result-card glass-card">
           <span class="result-icon">📈</span>
-          <h3>+40%</h3>
-          <p>de aumento em contatos recebidos pelos meus clientes após o site no ar</p>
+          <h3>+50%</h3>
+          <p>de redução em retrabalho graças a requisitos bem documentados desde o início</p>
         </div>
         <div class="result-card glass-card">
           <span class="result-icon">⚡</span>
-          <h3>7 dias</h3>
-          <p>tempo médio de entrega de um projeto completo, do briefing ao deploy</p>
+          <h3>5 dias</h3>
+          <p>tempo médio para levantar e documentar todos os requisitos de um projeto</p>
         </div>
         <div class="result-card glass-card">
           <span class="result-icon">⭐</span>
@@ -407,19 +410,19 @@
         <div class="services-list">
           <div class="service-item">
             <i class="ph ph-check-circle"></i>
-            <span>Landing page que gera leads e vendas todo mês</span>
+            <span>Levantamento e documentação de requisitos funcionais e técnicos</span>
           </div>
           <div class="service-item">
             <i class="ph ph-check-circle"></i>
-            <span>Site institucional que passa autoridade pro seu negócio</span>
+            <span>Modelagem de banco de dados (DER, SQL, normalização)</span>
           </div>
           <div class="service-item">
             <i class="ph ph-check-circle"></i>
-            <span>Design focado em conversão, não só em estética</span>
+            <span>Mapeamento de processos com BPMN e fluxogramas</span>
           </div>
           <div class="service-item">
             <i class="ph ph-check-circle"></i>
-            <span>Otimização contínua pra melhorar seus resultados</span>
+            <span>Prototipação de interfaces (Figma) e validação com usuários</span>
           </div>
         </div>
       </div>
@@ -432,8 +435,8 @@
       <div class="contact-card glass-card">
         <div class="contact-content">
           <span class="section-badge">Contato</span>
-          <h2>Pronto pra faturar mais com seu site?</h2>
-          <p>Me chama no WhatsApp — em 7 dias seu negócio tem presença digital que vende de verdade.</p>
+          <h2>Vamos transformar sua ideia em um sistema que funciona?</h2>
+          <p>Me chama no WhatsApp — em 5 dias você tem os requisitos do seu projeto mapeados e documentados.</p>
         </div>
 <div class="contact-buttons">
           <a href="https://wa.me/5553991123550" class="btn btn-primary btn-lg">
