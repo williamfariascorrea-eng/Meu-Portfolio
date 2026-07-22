@@ -1,27 +1,29 @@
-# Portfólio William Corrêa
+# Portfolio - William Correa
 
-Desenvolvedor Front-end criando experiências digitais que convertem visitantes em clientes.
+Portfolio pessoal de desenvolvedor front-end. Interfaces modernas, responsivas e com foco em experiencia do usuario.
 
 ## Tecnologias
 
-- HTML5
-- CSS3
-- JavaScript
-- TypeScript
-- React
-- Node.js
-- Python
+- HTML5, CSS3, JavaScript
+- React, TypeScript
+- Tailwind CSS
 
-## Como executar
+## Deploy
 
-1. Clone o repositório
-2. Abra o arquivo `index.html` no seu navegador
-3. Ou use um servidor local como Live Server
+Online em breve.
+
+## Projetos em destaque
+
+- **Fitmais+** - Site institucional para academia (React + TypeScript + Tailwind)
+- **Finance Dashboard** - Dashboard financeiro corporativo (React + TypeScript + Zustand)
+- **FitFlow CRM** - Sistema de gestao para academias (Next.js + Supabase)
 
 ## Contato
 
-- WhatsApp: (53) 99112-3550
-- Instagram: @williamsigma_
-- GitHub: williamfariascorrea-eng
+- GitHub: [williamfariascorrea-eng](https://github.com/williamfariascorrea-eng)
+- LinkedIn: [william-correa](https://linkedin.com/in/william-correa)
+- Email: williamfariascorrea@gmail.com
 
-© 2026 William Corrêa. Todos os direitos reservados.
+---
+
+© 2026 William Correa
