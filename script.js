@@ -1,30 +1,5 @@
 'use strict';
 
-// Anti-clickjacking
-if (window.top !== window.self) {
-  window.top.location = window.self.location;
-}
-
-// Disable right-click (opcional - pode remover se quiser)
-document.addEventListener('contextmenu', e => {
-  e.preventDefault();
-});
-
-// Disable keyboard shortcuts de devtools e cópia
-document.addEventListener('keydown', e => {
-  if (
-    e.key === 'F12' || 
-    e.key === 'u' && e.ctrlKey || 
-    e.key === 's' && e.ctrlKey || 
-    e.key === 'p' && e.ctrlKey || 
-    e.ctrlKey && e.shiftKey && e.key === 'I' ||
-    e.ctrlKey && e.shiftKey && e.key === 'J' ||
-    e.ctrlKey && e.shiftKey && e.key === 'C'
-  ) {
-    e.preventDefault();
-  }
-});
-
 // ===============================
 // NAVBAR SCROLL EFFECT
 // ===============================
