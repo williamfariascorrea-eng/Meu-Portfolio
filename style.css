@@ -176,7 +176,6 @@ a {
 
 .nav-logo img {
   display: block;
-  border-radius: 8px;
   box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
   transition: transform 0.3s ease;
 }
